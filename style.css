@@ -1,0 +1,421 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+}
+.sndnav{
+    display: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding-left: 130px;
+    padding-right: 140px;
+    box-shadow: 10px 1px 1px 0px #f7efef;
+}
+.liens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.lien{
+    display: flex;
+    column-gap: 30px;
+}
+nav a, .firstpart .entete h5{
+    text-decoration: none;
+    color: rgb(128, 128, 170);
+    font-size: 16px;
+}
+nav button{
+    width: 120px;
+    height: 35px;
+    border-radius:20px ;
+    border: 2px solid black;
+    background-color: white;
+}
+.entete h5{
+    text-decoration: none;
+    color: rgb(128, 128, 170);
+    font-size: 16px;
+    padding-left: 130px;
+}
+.firstpart .entete .snd{
+    display: flex;
+    flex-direction: column;
+}
+.firstpart .entete .third{
+    display: flex;
+    flex-direction: row;
+}
+.firstpart .entete h1{
+    font-size: 100px;
+    padding-left: 130px;
+}
+.firstpart .snd{
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+}
+.firstpart button{
+    margin-top: 35px;
+    margin-left: 575px;
+    height: 55px;
+    width: 140px;
+    border: none;
+    border-radius: 70px;
+    background-color: black;
+    color: aliceblue;
+
+}
+.firstpart button img{
+    transform: rotate(-20deg);
+}
+.firstpart .image img{
+    margin-top: 40px;
+    height: 500px;
+    width: 1349px;
+    object-fit: cover;
+}
+.secondpart{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.secondpart .toppart h5{
+    color: rgb(128, 128, 170);
+    font-size: 16px;
+    padding-left: 130px;
+}
+.secondpart .sndpart{
+    display: flex;
+}
+.secondpart .sndpart h1 span{
+    color: #3d77cf;
+}
+.secondpart h1{
+    font-size: 45px;
+    width: 760px;
+    padding-left: 130px;
+}
+.secondpart .rdpart .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 430px;
+    padding-top: 40px;
+    padding-left: 300px;
+    margin-top: 2px;
+}
+.secondpart .rdpart .icon :first-child{
+   
+    border: 2px solid #eeeeee;
+    border-radius: 300px;
+}
+.secondpart .rdpart .icon svg{
+    height: 60px;
+    width: 60px;
+}
+/* .secondpart button :last-child */
+.secondpart .bottompart{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-top: 45px;
+    margin-left: 130px;
+}
+.secondpart .bottompart div{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 275px;
+    height: 392px;
+    border: 1px solid #f7efef;
+    padding-top: 25px;
+}
+.secondpart .bottompart div h3{
+    font-size: 25px;
+    margin-left: 25px;
+}
+.secondpart .bottompart div p{
+    font-size: 18px;
+    margin-left: 25px;
+}
+.secondpart .bottompart .fondecranlumineux img{
+    height: 253px;
+    margin-top: 20px;
+}
+.secondpart .bottompart .fleurbleu img{
+    height: 253px;
+    margin-top: 22px;
+}
+.secondpart .bottompart .blueimage img{
+    height: 253px;
+    margin-top: 22px;
+}
+.secondpart .bottompart .blackimage img{
+    height: 253px;
+    margin-top: 22px;
+}
+.thirdpart{
+    padding-top: 120px;
+}
+.thirdpart .stdiv{
+    display: flex;
+    flex-direction: row;
+}
+.thirdpart .stdiv h5{
+    color: rgb(128, 128, 170);
+    padding-left: 125px;
+    font-size: 16px;
+}
+.thirdpart .stdiv h1{
+    font-size: 45px;
+    width: 720px;
+    padding-left: 125px;
+}
+.thirdpart .stdiv h1 span{
+    color: #3d77cf;
+}
+.thirdpart .imgrd{
+    width: 100px;
+    height: 100px;
+    border-radius: 0px;
+    margin-left: 390px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+.thirdpart .imgrd svg{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.thirdpart .stclass{
+    display: flex;
+    flex-direction: row;
+    column-gap: 130px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.thirdpart .stclass a{
+    text-decoration: none;
+    display: flex;
+    color: rgb(128, 128, 170);
+    font-size: 18px;
+}
+.thirdpart .stclass :first-child{
+    font-weight: bolder;
+}
+.degrade{
+    background: linear-gradient(
+    to left,
+    #eeeeee 25%,
+    #eeeeee 25%,
+    #eeeeee 50%,
+    #eeeeee 50%,
+    #eeeeee 80%,
+    black 15%
+  );
+  width: 1085px;
+  height: 5px;
+  border:1px solid #eeeeee;
+  margin-top: 30px;
+  margin-left: 125px;
+  border-radius: 20px;
+}
+.thirdpart .images{
+    display: flex;
+    flex-direction: row;
+    padding-top: 29px;
+    padding-left: 125px;
+    column-gap: 50px;
+}
+.thirdpart .images img{
+    width: 520px;
+    height: 350px;
+}
+
+.thirdpart .images p{
+    color: #878f98;
+    margin-top: 20px;
+}
+.thirdpart .images h1{
+    margin-top: 20px;
+}
+.thirdpart .images button{
+    height: 35px;
+    width: 105px;
+    border-radius: 20px;
+    color: #878f98;
+    background-color: white;
+    border:1px solid #e7e7e7;
+}
+.thirdpart .stimg{
+    display: flex;
+    flex-direction: column;
+}
+.thirdpart .sndimg{
+    margin-top: 80px;
+}
+.thirdpart .images a{
+    text-decoration: none;
+    color: #74abec;
+}
+.thirdpart .images .des{
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 190px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+}
+footer button{
+    width: 180px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #056bff;
+    color: white;
+}
+footer button img{
+    transform: rotate(-30deg);
+}
+footer .imgfleur img{
+    width: 450px;
+    height: 50px;
+} 
+footer h5,footer h1,footer p,footer button,footer .imgfleur{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 700px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    header nav .lien, header nav .contacter{
+        display: none;
+    }
+    nav{
+        display: flex;
+        width: 387px;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px; 
+        box-shadow: 10px 1px 1px 0px #c7c6c6;
+    }
+    .sndnav{
+        display:flex;
+    }
+    .firstpart{
+        margin-top: 0;
+    }
+    .firstpart .entete .third{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstpart .entete .third{
+        margin-right: 500px;
+    }
+    .firstpart .entete h5{
+        padding-left: 25px;
+    }
+    .firstpart .entete h1{
+        font-size: 70px;
+        padding-left: 25px;
+    }
+    .firstpart button{
+        margin-left: 25px;
+        width: 205px;
+        height: 75px;
+        font-size: 20px;
+    }
+    .firstpart .image img{
+        width: 375px;
+        height: 350px;
+    }
+    .secondpart .toppart h5{
+        padding-left: 25px;
+    }
+    .secondpart h1{
+        padding-left: 25px;
+        font-size: 30px;
+        width: 400px;
+    }
+    .secondpart .sndpart{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondpart .rdpart .icon{
+        padding-left: 0;
+        width: 370px;
+        padding-left: 260px;
+        padding-top: 15px;
+
+    }
+    .secondpart .rdpart .icon svg{
+        height: 50px;
+        width: 50px;
+    }
+    .secondpart .bottompart{
+        overflow-y: scroll;
+        margin-left: 25px;
+    }
+    .thirdpart .stdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdpart .stdiv h5{
+        padding-left: 25px;
+    }
+    .thirdpart .stdiv h1{
+        padding-left: 25px;
+    }
+    .thirdpart .stdiv h1{
+        font-size: 30px;
+        width: 350px;
+    }
+    .thirdpart .imgrd{
+        margin-left: 240px;
+        margin-top: 0;
+    }
+    .thirdpart .nddiv,.thirdpart .degrade{
+        display: none;
+    }
+    .thirdpart .images{
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+    }
+     .thirdpart .images img{
+        width: 330px;
+        height: 300px;
+    } 
+    footer{
+        margin-top: 100px;
+    }
+    footer .imgfleur img{
+        width: 340px;
+        height: 50px;
+    } 
+}
